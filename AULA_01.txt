@@ -58,12 +58,6 @@ git commit -m "Nome de que desejar para uma referencia"
 EX: git commit -m "Meu primeiro commit"
 ``` 
 
-## Subindo as alterações para repositório
-
-Para subirmos essas alterações, precisaremos usar o comando a seguir:
-```sh
-git push
-```
 Porém, algo aconteceu! Não foi possível subir as alterações, _porque precisamos informar o usuário e o e-mail_!
 Após o erro é apresentado dois comandos para que possamos informar o nome do usuário e o e-mail. Essa ação ocorre apenas na primeira vez!
 Lembra que falei que precisamos "assinar" o commit? é dessa forma que podemos validar quem realizou as alterações e mantemos todo o rastreio das alterações.
@@ -72,7 +66,14 @@ Os comandos são:
 git config --global user.name "Seu Nome"
 git config --global user.email "seu.email@example.com" 
 ```
-Agora sim, após isso podemos usar o comando `git push` novamente!
+Agora sim, após isso podemos usar o comando `git commit` novamente!
+
+## Subindo as alterações para repositório
+
+Para subirmos essas alterações, precisaremos usar o comando a seguir:
+```sh
+git push
+```
 Verifique no repositório as diferenças!
 
 ## Conclusão
