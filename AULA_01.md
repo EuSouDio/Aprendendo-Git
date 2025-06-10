@@ -84,7 +84,7 @@ Nesta aula aprendemos o básico para subirmos nossa primeira alteração no Gith
 ### Exercicio_01 (Minha Rotina): 
 1. Crie um repositório com o nome que desejar;
 2. Adicione o arquivo readme;
-3. Crie outro arquivo com o nome `Rotina.txt`;
+3. Crie outro arquivo com o nome `Rotina.md`;
 4. Escreva sua rotina diária;
 5. Salve os arquivos;
 6. Adicione os arquivos;
